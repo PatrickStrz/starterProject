@@ -1,9 +1,11 @@
-## Starter Pack for a react/redux/apollo-client application with
+## Starter Pack for a react/redux/apollo-client application for easy project generation.
+
 ### inludes:
 - authentication,
 - error tracking (Sentry)
 - Testing (Jest+Enzyme)
 - Custom components library.
+- Google Analytics.
 
 
 ## Getting Started
@@ -26,6 +28,7 @@ NODE_PATH = 'src' //to enable absolute imports
 ```
 
  3. install dependencies `npm install`
+ 4. Change name in package.json, index.html, and add own logo.
 
 **Make sure env variables set in production ( i.e: heroku Config Vars )
 
