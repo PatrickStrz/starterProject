@@ -10,13 +10,6 @@ import UserIconMenu from './UserIconMenu'
 import IconButton from 'material-ui/IconButton'
 import AccountCircle from 'material-ui/svg-icons/action/account-circle'
 
-const RightElementBox = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px; /*match left offset of appbar */
-`
-
 const Navbar = (props) => {
 
   const handleTouchTap = () => props.history.push('/')
@@ -75,6 +68,13 @@ const Navbar = (props) => {
     />
   )
 }
+
+const RightElementBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px; /*match left offset of appbar */
+`
 
 Navbar.propTypes = {
   handleLogout: PropTypes.func.isRequired,
